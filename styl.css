@@ -1,0 +1,96 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: slategrey;
+  color:white;
+}
+button{
+  padding: 10px;
+  border-radius: 10px;
+
+}
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+.hidden {
+  display: none;
+}
+#button1 {
+    background: lightgreen;
+}
+#button2 {
+    background: pink;
+}
+#button3 {
+    background: lightblue;
+}
+#button4 {
+    background: lightyellow;
+}
+#button5 {
+   background: darkorange;
+}
+#button6 {
+   background: rebeccapurple;
+}
+#button7 {
+   background: darkturquoise;
+}
+#button8 {
+   background: wheat;
+}
+#button1:active, #button1.lit{
+    background:green;
+}
+#button2:active, #button2.lit{
+    background:red;
+}
+#button3:active, #button3.lit{
+    background:blue;
+}
+#button4:active, #button4.lit{
+    background:yellow;
+}
+#button5:active, #button5.lit{
+    background:orange;
+}
+#button6:active, #button6.lit{
+    background:purple;
+}
+#button7:active, #button7.lit{
+    background:Turquoise;
+}
+#button8:active, #button8.lit{
+    background:Tan;
+}
+label {
+        background-color: ;
+        width:200px;
+        height:200px;
+        margin:20px;
+        font-size: 20px;
+        font-weight: 350;
+        color: white;
+      }
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
